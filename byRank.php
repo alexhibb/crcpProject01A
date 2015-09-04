@@ -32,7 +32,7 @@
 	<input TYPE="submit" VALUE="Order By Year">
 	</form> -->
 
-	<? include 'header.php' ?>
+	<?php include 'header.php' ?>
 <table>
 	<tr>
 		<td>1</td>

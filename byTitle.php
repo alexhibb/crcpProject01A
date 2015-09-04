@@ -32,7 +32,7 @@
 	</form>
  -->
 
-	<? include 'header.php'; ?>
+	<?php include 'header.php'; ?>
 	<table>
 	<tr>
 		<td>60</td>

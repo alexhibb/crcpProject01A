@@ -32,7 +32,7 @@
 	<form METHOD="LINK" ACTION="byTitle.html">
 	<input TYPE="submit" VALUE="Order By Title">
 	</form> -->
-	<? include ('header.php'); ?>
+	<?php include ('header.php'); ?>
 <table>
 	<tr>
 		<td>50</td>

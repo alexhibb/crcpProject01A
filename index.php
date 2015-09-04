@@ -1,46 +1,6 @@
-<html>
-<head>
-	<title>Top 100 Albums of All Time </title>
-	<meta name = "description" content = "A list of the top 100 albums of all time, according to Rolling Stone." />
-
-	<link href="styles.css" rel="stylesheet">
-<!-- 	<style>
-		h1 {
-			font-family: impact;
-			font-weight: normal;
-			color: #009999;
-		}
-		h2 {
-			font-family: "Lucida Console";
-			font-weight: normal;
-			color: #009999;
-		}
-	</style> -->
-</head>
-
-
-
-<body>
-	<p class="title">
-	 Top 100 Albums of All Time </p>
-	<p class="title">
-	At least according to someone
-</p>
-<!-- 	<form> 
-		<input type = "button" value = "Say Hello" />
-	</form>	 -->
-
-	<form METHOD="LINK" ACTION="byRank.html">
-	<input TYPE="submit" VALUE="Order By Rank">
-	</form>
-
-	<form METHOD="LINK" ACTION="byTitle.html">
-	<input TYPE="submit" VALUE="Order By Title">
-	</form>
-
-	<form METHOD="LINK" ACTION="byYear.html">
-	<input TYPE="submit" VALUE="Order By Year">
-	</form>
+<?php
+include ('header.php');
+?>
 
 <pre> 
 Sgt. Pepper's Lonely Hearts Club Band, 1967
@@ -144,7 +104,3 @@ Marquee Moon, 1977
 Eat a Peach, 1972
 Daydream Nation, 1988
 </pre>
-</body>
-
-</html>
-
