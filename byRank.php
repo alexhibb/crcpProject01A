@@ -33,6 +33,9 @@
 	</form> -->
 
 	<?php include 'header.php' ?>
+
+	<?php include 'albumTable.php' ?>
+	
 <table>
 	<tr>
 		<td>1</td>

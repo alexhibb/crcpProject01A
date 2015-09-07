@@ -33,6 +33,8 @@
  -->
 
 	<?php include 'header.php'; ?>
+
+	<?php include 'albumTable.php' ?>
 	<table>
 	<tr>
 		<td>60</td>

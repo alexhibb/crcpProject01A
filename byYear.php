@@ -33,6 +33,8 @@
 	<input TYPE="submit" VALUE="Order By Title">
 	</form> -->
 	<?php include ('header.php'); ?>
+
+	<?php include 'albumTable.php' ?>
 <table>
 	<tr>
 		<td>50</td>
