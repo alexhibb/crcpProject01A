@@ -1,0 +1,23 @@
+
+<script>
+function replaceList() {
+	var xhr = C\XMLHttpRequest();
+	xhr.onReadyStateChange = function() {
+		if (xhr.readyState == 4 && xhr.status == 200)//every response has a code (200 means OK)
+		{
+			document.getElementByID"favoriteFoods").innerHTML = xhr.responseText;
+		}
+	}
+	//go out to server
+	//grab data in data.txt
+	//replace with FavoriteFoods div...
+}
+</script>
+
+<input type - "submit" onclick="replaceList(); return false"
+
+<div id="FavoriteFoods">
+<ul>
+<li> nothing right now </li>
+</ul>
+
