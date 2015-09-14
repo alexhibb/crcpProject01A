@@ -37,10 +37,10 @@
 <!-- 	<form>
 	<input type = "button" value = "Year" onClick = "location.href = 'byYear.php'"/>
 	</form> -->
+<?php $order = $_POST['order'] ?>
 
-
-	<form method = "POST" actno  = "#">
-		<input type = "submit" onclick = "replaceList(); return false" >
+	<form method = "POST" action  = "#">
+		<input type = "submit" value = "Order By" onclick = "replaceList(); return false" >
 		<select name="order"> 
   			<option <?php if ($order == "rank") { ?> selected="selected" <?php } ?> value="rank">Rank</option>
   			<option <?php if ($order == "title") { ?> selected="selected" <?php } ?> value="title">Title</option>
