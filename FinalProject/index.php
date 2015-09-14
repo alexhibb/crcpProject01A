@@ -1,7 +1,4 @@
-<?php
-include ('header.php');
-?>
-
-<?php
-include ('albumTable.php');
-?>
+<?php include ('header.php'); ?>
+<div id="albums">
+<?php include ('albumTable.php'); ?>
+</div>
